@@ -2,10 +2,14 @@ package com.example.lemonade.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Light theme
+val LemonPrimary = Color(0xFFFFC107)       // ярко-жёлтый
+val LemonPrimaryContainer = Color(0xFFFFF8E1) // светло-жёлтый фон для AppBar
+val LemonSecondary = Color(0xFF4CAF50)     // зелёный акцент
+val LemonTertiary = Color(0xFFFFECB3)      // мягкий жёлтый для кнопок
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Dark theme
+val LemonPrimaryDark = Color(0xFFFFB300)
+val LemonPrimaryContainerDark = Color(0xFF3E2723)
+val LemonSecondaryDark = Color(0xFF81C784)
+val LemonTertiaryDark = Color(0xFFFFE082)
